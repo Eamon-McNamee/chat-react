@@ -4,7 +4,7 @@
   background-color: #fff;
   width: 100%;
   left: 0;
-  bottom: 0;
+  bottom: 95px;
   padding: 10px 45px;
 }
 .chat-input-box {
@@ -281,6 +281,7 @@
 }
 .message-list-wrapper {
   padding-bottom: 20px;
+  top: '155px';
 }
 .message-list-wrapper .time-info{
   margin: 10px 0px;
