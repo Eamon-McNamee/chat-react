@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack --config webpack.prd.js",
-    "prepack": "npm run build"
+    "prepack": "NODE_ENV='publish' npm run build"
   },
   "repository": {
     "type": "git",
