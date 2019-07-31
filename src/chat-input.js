@@ -27,7 +27,7 @@ export default class ChatInput extends Component {
     const {value, textareaChange} = nextProps;
     if (textarea !== value) {
       textareaChange && textareaChange(value);
-      this.setState({textarea: value});
+      // this.setState({textarea: value});
     }
   }
   componentWillUnmount() {
