@@ -1,5 +1,5 @@
 {
-  "name": "chat-react",
+  "name": "@redskyorg/chat-react",
   "version": "0.1.2",
   "description": "chat-react component",
   "main": "lib/chat-react.js",
@@ -64,5 +64,8 @@
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.14"
+  },
+  "directories": {
+    "example": "example"
   }
 }
